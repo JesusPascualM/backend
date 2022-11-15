@@ -1,0 +1,26 @@
+{
+  "name": "node-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set NODE_ENV=development&& nodemon app.js",
+    "prod": "set NODE_ENV=production&& nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.8.0",
+    "mongoose": "^6.5.5",
+    "mongoose-paginate-v2": "^1.7.1",
+    "node": "^19.0.1",
+    "nodemon": "^2.0.19",
+    "paginate": "^0.2.0"
+  }
+}
